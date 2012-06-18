@@ -38,4 +38,6 @@ if [ "$PS1" ]; then
   export HISTSIZE MAILCHECK LESSCHARSET EDITOR DARCS_EDITOR LESS RSYNC_RSH
   export PATH=/bin:/sbin:/usr/local/bin:/usr/local/sbin:/opt/local/bin:/opt/local/sbin:$PATH
 
+  source /etc/profile
+
 fi
